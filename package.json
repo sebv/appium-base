@@ -1,17 +1,12 @@
 {
   "name": "appium-base",
   "description": "template for appium packages",
-  "tags": [
+  "keywords": [
     "appium"
   ],
   "version": "0.0.1",
-  "author": "appium contributors",
-  "licenses": [
-    {
-      "type": "apache-2.0",
-      "url": "https://raw.github.com/appium/appium-base/master/LICENSE"
-    }
-  ],
+  "author": "appium",
+  "license": "Apache License 2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/appium/appium-base.git"
