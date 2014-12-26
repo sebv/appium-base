@@ -4,7 +4,7 @@ var fs = require('fs');
 
 var packageName = process.argv[2];
 
-if(!process.env.PACKAGE_NAME) throw new Error('PACKAGE_NAME env variable undefined');
+if(!packageName) throw new Error('Missing package name.');
 
 var fileNames = ['package.json', 'README.md'];
 for(var i=0; i<fileNames.length; i++) (function(fileName) {
